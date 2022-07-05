@@ -1,0 +1,354 @@
+body {
+  background-color: lightcyan;
+}
+
+a.inicio:link,
+a.inicio:visited {
+  background-color: white;
+  color: rgb(17, 0, 255);
+  border: 2px solid rgb(172, 202, 247);
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.inicio:hover,
+a.inicio:active {
+  background-color: rgb(189, 231, 255);
+  color: blueviolet;
+}
+
+#imagem {
+
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+#título {
+  font-family: 'Courier New', Courier, monospace;
+  color: lightcoral;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(229, 183, 255);
+  border-left: 140px;
+  padding: 15px;
+  width: 100%;
+  font-size: 20px;
+}
+
+#redes {
+  width: 200px;
+  height: 1000px;
+  background-color: rgb(102, 181, 255);
+  float: left;
+  padding: 10px;
+
+}
+
+a.logosdaredes:link,
+a.logosdaredes:visited {
+  background-color: white;
+  color: rgb(164, 158, 255);
+  border: 2px solid rgb(65, 137, 245);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+a.logosdaredes:hover,
+a.logosdaredes:active {
+  background-color: rgb(156, 218, 253);
+  color: blueviolet;
+}
+
+
+.RedesTitulo {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(47, 144, 255);
+  text-align: center;
+  background-color: azure;
+  padding: 15px;
+  border: 3px solid rgb(116, 116, 255);
+  border-radius: 10px;
+
+}
+
+.noticias {
+  color: rgb(51, 173, 255);
+}
+
+.imagem{
+  width: 25%;
+}
+
+.conteudo {
+
+  width: 1317px;
+  height: 480px;
+  background-color: rgb(175, 232, 250);
+  padding: 15px;
+  float: left;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+
+}
+
+ul.lista {
+  list-style: circle;
+}
+
+#rodape {
+
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(7, 2, 82);
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 150px;
+  background-color: rgb(112, 198, 255);
+  clear: both;
+  padding-top: 10px;
+
+}
+
+#titulo_cadastro {
+  background-color: rgb(220, 220, 250);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#dados {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+option {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#tabela {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  background-color: rgb(190, 238, 253);
+}
+
+.titulotabela {
+  font-size: 25px;
+}
+
+.tabela2 {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  border-width: 10px;
+  border-radius: 2px;
+  font-size: 20px;
+  border-collapse: collapse;
+  background-color: rgb(254, 240, 255);
+
+}
+
+td,
+th {
+
+  border: 2px solid rgb(182, 104, 255);
+  text-align: left;
+  padding: 8px;
+
+}
+
+#itens {
+  width: 200px;
+  height: 300px;
+  background-color: lightcyan;
+  float: left;
+}
+
+fieldset {
+
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0.35em;
+  padding-bottom: 0.625em;
+  padding-left: 0.75em;
+  padding-right: 0.75em;
+  border: 2px groove (internal value);
+
+}
+
+
+#agendamento {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  float: left;
+}
+
+.atendimentocentro {
+
+  text-align: justify;
+  padding-left: 260px;
+  padding-right: 250px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+
+}
+
+.titulosobre {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  padding-left: 250px;
+}
+
+.textodescritivo {
+
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  font-display: block;
+
+}
+
+.persona {
+  background-color: rgb(0, 204, 255);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.persona1 {
+  background-color: rgb(252, 192, 252);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+.persona2 {
+  background-color: rgb(71, 217, 253);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.persona3 {
+  background-color: rgb(249, 159, 249);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.persona4 {
+  background-color: rgb(140, 229, 252);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.persona5 {
+  background-color: rgb(250, 183, 250);
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.fotodeperfil {
+  width: 10%;
+  float: left;
+  padding: 10px;
+}
+
+.doutores {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  padding-left: 40px;
+}
+
+.textodoutores {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  padding-left: 260px;
+}
+
+legend {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label {
+  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  text-align: center;
+  padding: 2px;
+}
+
+.cadastro {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.centralizar {
+  padding: 25px;
+}
+
+.senhaesquecida {
+  font-size: 15px;
+}
+
+.senha {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.selecaodeconsulta {
+  border: 2px solid rgb(88, 202, 255);
+  border-radius: 10px;
+  background-color: aliceblue;
+  height: 300px;
+}
+
+.tabela3 {
+
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  border-color: violet;
+  float: right;
+  border-collapse: collapse;
+  padding-left: 5px;
+  border-radius: 10px;
+  height: 320px;
+
+}
+
+.selecao {
+  font-size: 15px;
+}
+
+.tabelaagendamento {
+  display: inline-block;
+  padding: 5px;
+}
+
+.tamanhoimagem{
+  width: 45%;
+  height: 350px;
+
+}
+
+.tamanhoimagem2{
+  width: 50%;
+  height: 350px;
+}

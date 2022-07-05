@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cssinicial.css">
+    <title>Alterar-Senha</title>
+</head>
+
+<body>
+
+    <img id="imagem" src="/img/logo-ansiedade.png">
+    <h1 id="título"><a class="inicio" href="/">Ínicio</a>
+        <a class="inicio" href="atendimento.ejs">Atendimento</a>
+        <a class="inicio" href="sobrenos.ejs">Sobre Nós</a> </h1>
+
+    <section>
+
+        <header>
+            <center>
+                <h1 class="senha">Esqueceu a Senha</h1>
+            </center>
+        </header>
+
+        <form action="new_pswd" method="POST">
+            <fieldset>
+
+                <legend>Digite seus dados abaixo</legend>
+                <center>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email"> <br><br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone"> <br><br>
+
+                    <label for="novasenha">Nova Senha:</label>
+                    <input type="password" name="novasenha" id="novasenha"> <br><br>
+
+                    <button type="submit">Trocar Nova Senha</button>
+
+                </center>
+            </fieldset>
+        </form>
+    </section>
+    <br><br>
+    <footer>
+        <div id="rodape" role="contentinfo">
+            <h1>São Paulo - Guarulhos Office Tower - Sala 2012
+                (11)98443-0552
+            </h1>
+            <h3>@Copyright MIND - Tratamentos Psicológicos - 2022</h3>
+        </div>
+    </footer>
+</body>
+
+</html>

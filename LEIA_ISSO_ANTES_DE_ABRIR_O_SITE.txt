@@ -1,0 +1,45 @@
+Relatório ----------------------------------------------------------
+
+Instale no Terminal ANTES de rodar o código!
+//Instalar o Node modules
+npm install express -- save
+
+//Instalar o SQLite
+npm install sqlite3
+
+//Rodar o site com o comando abaixo:
+npm run dev
+
+O programa inicia na Página Principal, vai ter várias notícias 
+relacionadas ao assunto do site e lá você terá a escolha de ir 
+para o Atendimento e o Sobre Nós;
+
+Dentro do Atendimento, caso não tenha feito o Cadastro terá um ícone
+que ao clicar nele, será redirecionado para a página para
+fazer o Cadastro;
+
+No Cadastro pediremos para o usuário escrever suas informações 
+pessoais para armazenarmos seus dados no nosso Banco de Dados.
+
+Após cadastrar o usuário poderá fazer o Login clicando no mesmo na
+aba do Atendimento;
+
+Na área do Login precisa inserir o seu e-mail e senha de Cadastro;
+
+Depois de logado, o usuário será tranferido para a Página do Usuário,
+onde poderá escolher entre Agendar Consulta e Visualizar as Consultas
+Cadastradas.
+
+Integrantes do grupo:
+
+Arthur K. Felismino - 125111351312
+
+Enzo Pagnozzi Cesar - 12522180038
+
+Felipe Bianco Fitipaldi - 125111347112
+
+Paulo Gustavo Sousa Brito - 125111378562
+
+Thalles R. Lima - 125111345491
+
+Vinicius Lessa Ferreira- 125111359577

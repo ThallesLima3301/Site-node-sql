@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cssinicial.css">
+    <title>Agendar Consulta</title>
+</head>
+
+<body>
+
+    <img id="imagem" src="/img/logo-ansiedade.png">
+    <h1 id="título"><a class="inicio" href="/">Ínicio</a>
+        <a class="inicio" href="atendimento.ejs">Atendimento</a>
+        <a class="inicio" href="sobrenos.ejs">Sobre Nós</a> </h1>
+
+    <h1 class="">Agendamento de consulta</h1>
+
+    <div id="itens" role="navigation">
+        <fieldset class="selecaodeconsulta">
+            <h2 class="selecao">Selecione o item desejado:</h2>
+
+            <a class="inicio" href="agendar.ejs">Agendar Consulta</a> <br><br>
+            <a class="inicio" href="visualizar.ejs">Visualizar Consulta</a> <br><br>
+        </fieldset>
+    </div>
+
+    <table class="tabela3">
+        <tr>
+            <th>Profissionais</th>
+            <th>Profissão</th>
+            <th>Dias</th>
+            <th>Horários</th>
+        </tr>
+        <tr>
+            <td>Felipe Bianco Fitipaldi</td>
+            <td>Neuropsicologia</td>
+            <td>Segunda e Terça</td>
+            <td>09:00 | 13:00</td>
+        </tr>
+        <tr>
+            <td>Arthur Korkiskis Felismino</td>
+            <td>Psicoterapia</td>
+            <td>Segunda e Terça</td>
+            <td>14:00 | 18:00</td>
+        </tr>
+        <tr>
+            <td>Enzo Pagnozzi Cesar</td>
+            <td>Psicologia E-sports</td>
+            <td>Quarta e Quinta</td>
+            <td>09:00 | 13:00</td>
+        </tr>
+        <tr>
+            <td>Paulo Gustavo Sousa Brito</td>
+            <td>Psicologia criminal</td>
+            <td>Quarta e Quinta</td>
+            <td>14:00 | 18:00</td>
+        </tr>
+        <tr>
+            <td>Thalles R. Lima</td>
+            <td>Psicologia das cores</td>
+            <td>Sexta</td>
+            <td>09:00 | 13:00</td>
+        </tr>
+        <tr>
+            <td>Vinicius Lessa Ferreira</td>
+            <td>Psicologia comportamental</td>
+            <td>Sexta</td>
+            <td>14:00 | 18:00</td>
+        </tr>
+    </table>
+
+    <form action="/agendar" method="POST">
+        <fieldset class="selecaodeconsulta">
+
+            <h1 class="selecao">Formulário de Agendamento</h1>
+
+            <br><br>
+
+            <div id="data" role="main">
+                <label class="tabelaagendamento" for="dia">Selecione o Dia:</label>
+
+                <select name="dia" id="dia">
+                    <option value="Segunda e Terça">Segunda e Terça</option>
+                    <option value="Quarta e Quinta">Quarta e Quinta</option>
+                    <option value="Sexta">Sexta</option>
+                </select>
+            </div> <br>
+
+            <div id="horario" role="main">
+                <label class="tabelaagendamento" for="horario">Selecione o Horário:</label>
+                <select name="horario" id="horario">
+                    <option value="09:00 13:00">09:00 13:00</option>
+                    <option value="14:00 18:00">14:00 18:00</option>
+                </select> <br><br>
+            </div>
+
+            <div id="profissional" role="main">
+                <label class="tabelaagendamento" for="profissional">Selecione o Profissional:</label>
+
+                <select name="profissional" id="profissional">
+                    <option value="Felipe">Felipe</option>
+                    <option value="Arthur">Arthur</option>
+                    <option value="Enzo">Enzo</option>
+                    <option value="Paulo">Paulo</option>
+                    <option value="Thalles">Thalles</option>
+                    <option value="Vinicius">Vinicius</option>
+                </select> <br> <br>
+
+                <br>
+                <div class="col-1 ml-1">
+                    <button type="submit">Confirmar Agendamento</button>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+
+    <br><br>
+
+    <footer>
+        <div id="rodape" role="contentinfo">
+            <h1>São Paulo - Guarulhos Office Tower - Sala 2012
+                (11)98443-0552
+            </h1>
+            <h3>@Copyright MIND - Tratamentos Psicológicos - 2022</h3>
+        </div>
+    </footer>
+
+</body>
+
+</html>
